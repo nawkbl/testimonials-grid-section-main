@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    margin:4%;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+}
+
+#dan {
+    position: relative;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: hsl(263, 55%, 52%);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#jon {
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: hsl(217, 19%, 35%);
+    padding: 28px;
+    border-radius: 10px;
+
+}
+
+#jean {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding:33px 25px;
+}
+
+#pat {
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 7%);
+    padding: 35px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#kir {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color: black;
+    padding: 45px 30px;
+}
+
+.pic {
+    border-radius: 100px;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    position:absolute;
+    z-index: 1;
+    right: 50px;
+    top: 10px;
+}
+#a{
+    position: relative;
+    z-index: 2;
+}
+#pic {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.pic{
+    margin: 10px;
+}
+#pic-title{
+    margin-left:10px;
+}
+
+
+.item1 {
+    grid-column: span 2;
+    grid-row: 1;
+    margin-right:30px;
+    margin-bottom: 30px;
+}
+
+.item2 {
+    margin-left:20px;
+    margin-right:10px;
+    margin-bottom:0px;
+}
+
+.item3 {
+    grid-column: 1;
+    grid-row: 2;
+    margin-right:50px;
+
+}
+.item4 {
+    margin-left:5px;
+    margin-right:10px;
+    margin-bottom:10px;
+    grid-column: span 2;
+    grid-row: 2;
+
+}
+
+.item5 {
+    margin-bottom: 15px;
+    grid-row: span 2;
+    margin-left:40px;
+
+}
+h2{
+    margin: 15px 0;
+}
+
+.dan{
+    width: 5%; margin: 0;  margin-top: 14px; height: 4%;
+}
+.jon{
+
+    width: 12%; height: 4%; margin: 0;  margin-top: 15px;
+}
+.jean{
+    width: 12%; height: 4%; margin: 0;  margin-top: 17px;
+}
+.pat{
+    width: 5%; height: 4%; margin: 0;  margin-top: 13px;
+}
+.kir{
+    width: 11%; height: 4%; margin: 0; margin-top: 12px;
+}
